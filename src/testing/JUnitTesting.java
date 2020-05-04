@@ -12,7 +12,17 @@ public class JUnitTesting {
 		}
 		return count;
 	}
+	
 	public double squareRoot(double x){
 	return Math.sqrt(x); 
+	}
+	
+	public double divideHalf(double y){
+		return y/2; 
+	}
+	
+	public int multiply(int a, int b){
+		int output = a * b; 
+		return output; 
 	}
 }
